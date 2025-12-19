@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Flowchart Usaha Hidroponik</title>
+
+<!-- FONT AWESOME CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg,#e8f5e9,#e3f2fd);
+  margin: 0;
+  padding: 20px;
+}
+
+h1,h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h1 i {
+  color: #2e7d32;
+}
+
+.section {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 24px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  background: #ffffff;
+  border-left: 6px solid #4caf50;
+  border-radius: 10px;
+  padding: 12px 18px;
+  margin: 10px 0;
+  width: 320px;
+  text-align: center;
+  font-weight: 500;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.box i {
+  color: #388e3c;
+  margin-right: 6px;
+}
+
+.box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.arrow {
+  font-size: 26px;
+  color: #2e7d32;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 18px;
+}
+
+.card {
+  background: #f9fbff;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.fb { color:#1877f2; }
+.money { color:#2e7d32; }
+.tools { color:#6d4c41; }
+.team { color:#3949ab; }
+
+footer {
+  text-align: center;
+  color: #555;
+  margin-top: 40px;
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<h1><i class="fa-solid fa-seedling"></i> FLOWCHART USAHA HIDROPONIK</h1>
+<h2>Tim 4 Orang • Modal Rp 500.000 per Orang</h2>
+
+<!-- ALUR UTAMA -->
+<div class="section">
+<h2><i class="fa-solid fa-diagram-project"></i> Alur Usaha Utama</h2>
+<div class="flow">
+  <div class="box"><i class="fa-solid fa-play"></i> Mulai</div>
+  <div class="arrow">↓</div>
+  <div class="box"><i class="fa-solid fa-wallet"></i> Setor Modal</div>
+  <div class="arrow">↓</div>
+  <div class="box"><i class="fa-solid fa-cart-shopping"></i> Pembelian Alat dan Bahan</div>
+  <div class="arrow">↓</div>
+  <div class="box"><i class="fa-solid fa-screwdriver-wrench"></i> Instalasi Sistem Hidroponik</div>
+  <div class="arrow">↓</div>
+  <div class="box"><i class="fa-solid fa-leaf"></i> Penyemaian Benih</div>
+  <div class="arrow">↓</div>
+  <div class="box"><i class="fa-solid fa-seedling"></i> Pindah Tanam</div>
+  <div class="arrow">↓</div>
+  <div class="box"><i class="fa-solid fa-hand-holding-water"></i> Perawatan Tanaman</div>
+  <div class="arrow">↓</div>
+  <div class="box"><i class="fa-solid fa-scissors"></i> Panen</div>
+  <div class="arrow">↓</div>
+  <div class="box"><i class="fa-solid fa-store"></i> Pengemasan dan Penjualan</div>
+  <div class="arrow">↓</div>
+  <div class="box"><i class="fa-solid fa-clipboard-list"></i> Pencatatan dan Evaluasi</div>
+</div>
+</div>
+
+<!-- PEMBAGIAN TUGAS -->
+<div class="section">
+<h2><i class="fa-solid fa-users"></i> Pembagian Tugas Tim</h2>
+<div class="grid">
+  <div class="card">
+    <i class="fa-solid fa-seedling"></i>
+    <h3>Produksi</h3>
+    Penyemaian<br>Perawatan<br>Panen
+  </div>
+  <div class="card">
+    <i class="fa-solid fa-gear tools"></i>
+    <h3>Teknis</h3>
+    Pompa<br>Listrik<br>Aliran Air
+  </div>
+  <div class="card">
+    <i class="fa-brands fa-facebook fb"></i>
+    <h3>Pemasaran</h3>
+    Offline<br>Facebook
+  </div>
+  <div class="card">
+    <i class="fa-solid fa-coins money"></i>
+    <h3>Keuangan</h3>
+    Pencatatan<br>Laporan
+  </div>
+</div>
+</div>
+
+<!-- EXIT PLAN -->
+<div class="section">
+<h2><i class="fa-solid fa-person-walking-arrow-right"></i> Exit Plan Anggota Keluar</h2>
+<div class="flow">
+  <div class="box"><i class="fa-solid fa-user-minus"></i> Anggota Ingin Keluar</div>
+  <div class="arrow">↓</div>
+  <div class="box"><i class="fa-solid fa-calendar-days"></i> Pemberitahuan 14 Hari</div>
+  <div class="arrow">↓</div>
+  <div class="box"><i class="fa-solid fa-comments"></i> Musyawarah Tim</div>
+  <div class="arrow">↓</div>
+  <div class="box"><i class="fa-solid fa-money-bill-transfer"></i> Pengembalian Modal Bertahap</div>
+</div>
+</div>
+
+<footer>
+<i class="fa-solid fa-leaf"></i> Dokumen Internal Usaha Hidroponik • Web
+</footer>
+
+</body>
+</html>
